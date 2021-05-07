@@ -162,12 +162,13 @@ def prioridades_3(operando):
 
 
 opcion = 0
-while opcion != 11:
+while opcion != 4:
     print('--------------------------------------------------------------------------------------------')
     print('\nSelecciona una Opción')
     print('1.- 2 símbolos aritméticos con diferente prioridad')
     print('2.- 3 símbolos aritméticos con diferente prioridad.')
     print('3.- 2 símbolos aritméticos con paréntesis')
+    print('4.- Salir')
     opcion = int(input("Opción a realizar: "))
 
     if opcion == 1:
@@ -225,4 +226,4 @@ while opcion != 11:
         textfile.close()
     else:
         print('Ingresa valores dentro de las opciones')
-        
+       
